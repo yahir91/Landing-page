@@ -1,12 +1,55 @@
+body {
+    background-color:  #b9bcc5;
+}
+
 #nav-bar {
     position: fixed; 
-    display: inline;
-    right: 0px;
-    top: 0px;
+    right: 20px;
+    top: 20px;
 
 }
 .nav-link {
     display: inline;
-    text-decoration: none;
-    margin: 5px;
+    margin: 30px;
 }
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#video {
+position:relative;
+margin: 100px auto;
+left: 35%;
+max-width: 100%;
+}
+
+#form {
+    position: relative;
+    left: 45%;
+    margin-top: 100px; 
+    display: flex;
+    flex-direction: column;
+}
+
+form input {
+    margin: 10px;
+    height: 20px;
+    width: 200px;
+}
+
+#submit {
+    margin-left: 40px;
+    width: 110px;
+    background-color: #f1c40f;
+    height: 25px;
+}
+
+
+@media screen and (max-width: 450px){
+
+    .nav-link{
+      margin: 5px;
+    }
+  
+  }
