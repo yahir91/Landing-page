@@ -1,0 +1,12 @@
+#nav-bar {
+    position: fixed; 
+    display: inline;
+    right: 0px;
+    top: 0px;
+
+}
+.nav-link {
+    display: inline;
+    text-decoration: none;
+    margin: 5px;
+}
